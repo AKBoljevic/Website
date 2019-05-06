@@ -1,0 +1,140 @@
+body
+{
+  margin:0;
+  padding:0;
+  color: #9C6400;
+}
+h3{
+  text-align:center;
+  font-size: 2em;
+}
+
+/**=== Sunflower Header ====*/
+header
+{
+  background-image: url('file:///C:/Users/Admin/Desktop/Proj_IMGS/SunFlowerPT.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  opacity: .7;
+
+}
+
+/** ==== Navigation==== */
+h1
+{
+  margin:0;
+  font-size:10em;
+  text-align:center;
+  padding:2em 1em;
+  color:#9C6400;
+  opacity:1;
+  font-family: 'dancing script', cursive;
+}
+ul
+{
+  margin:0;
+  padding:0;
+  position:fixed;
+  top:1em;
+  left:70%
+
+}
+li
+{
+  list-style-type: none;
+  display:inline-block;
+  padding: .5em 1em;
+  font-family: 'lato', sans-sans-serif;
+  font-weight:800;
+}
+li a
+{
+  text-decoration:none;
+  color:#9C6400;
+  font-size:.8em;
+}
+li a:hover
+{
+  color:#DB7D02;
+  box-shadow: 1px 5px 5px -5px #DB7D02;
+}
+
+/**=== Styles for both picture rows ==== */
+.PictureRow
+{
+  border-top: 1px solid #9C6400;
+  border-bottom: 1px solid #9C6400;
+  background-color: #F1F0EE;
+  padding: 4em 2em;
+}
+img
+{
+  height:200px;
+  width:300px;
+  margin: 2em 3em 1em 4em;
+}
+img:hover{
+  box-shadow: 3px 5px 10px #9C6400;
+}
+
+/*==== Styles for Paragraph ====*/
+.Paragraph
+{
+  color:#F1F0EE;
+  background-color: #9C6400;
+  border:2em solid #9C6400;
+  padding: 3em;
+}
+.Some_Words
+{
+  font-size: 1.5em;
+  text-align: right;
+}
+
+/*=== Styles for Content ===*/
+div.AllContent h3
+{
+  padding-bottom:1em;
+}
+div.AllContent h2
+{
+  text-align:center;
+}
+.AllContent
+{
+  padding:3em 2em 6em 2em;
+  font-size:18px;
+  background-color: #D6D4BF;
+  font-family: 'Lato', sans-serif;
+
+}
+.FirstCont, .SecondCont, .ThirdCont
+{
+  opacity:1;
+  width: 30%;
+  display:inline-block;
+  padding: 1em;
+  color: #9C6400;
+
+}
+.SecondCont:hover, .FirstCont:hover, .ThirdCont:hover
+{
+  box-shadow: 0px 8px 6px -6px ;
+  opacity:1;
+  transform:
+}
+.FirstCont,.SecondCont, .ThirdCont
+{
+  background-color: #FEE490;
+  opacity:.8;
+}
+
+/*=== Footer ====*/
+footer
+{
+  color:white;
+  padding:5em 6em;
+  text-align:center;
+  background-color:  #9C6400;
+  opacity:.8;
+}
